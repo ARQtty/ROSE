@@ -1,10 +1,10 @@
 {POWERED BY IVAN SMIRNOV AND ILYA SHAMOV;}
 program rose2_0;
-uses GraphABC;
+uses GraphABC; {'uses Graph;' for Pascal WDE}
 var cr, cg, cb, a, b, j, t, k, w, h, r, u, i, t0, t1, t2, t3, t4, t5: integer;
 var steps, x, dx: real;
 begin
-  SetWindowSize(900, 900);
+  SetWindowSize(1300, 750);
   j := 2;
   k := 3;
   r := j;
