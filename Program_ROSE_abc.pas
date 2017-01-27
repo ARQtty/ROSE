@@ -70,7 +70,7 @@ begin
             end;
             
       end;
-      x := x+dx;
+      x := x + dx;
       PutPixel(round(w+cos(x) * r), round(h + sin(x) * r),rgb(0, 0, 0));
       drawcircle(round(w + cos(x) * r), round(h+sin(x) * r),i + b);
       for u := 1 to 150 do 
